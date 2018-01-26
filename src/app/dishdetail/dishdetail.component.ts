@@ -1,9 +1,9 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Dish } from '../shared/dish.model';
 
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import {DishService} from '../services/dish.service';
+import { DishService } from '../services/dish.service';
 
 @Component({
   selector: 'app-dishdetail',
